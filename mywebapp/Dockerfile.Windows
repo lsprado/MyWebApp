@@ -1,0 +1,6 @@
+FROM microsoft/dotnet:nanoserver
+WORKDIR /app
+COPY bin/Debug/PublishOutput/mywebapp ./
+ENV ASPNETCORE_URLS http://+:80
+EXPOSE 80
+ENTRYPOINT ["dotnet", "mywebapp.dll"]
