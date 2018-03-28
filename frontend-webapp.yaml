@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: demowebapp
-          image: "leandropradoregistry.azurecr.io/demo-webapp:BuildNumber"
+          image: "URL_FOR_REGISTRY.azurecr.io/demo-webapp:BuildNumber"
           ports:
             - name: http
               containerPort: 80
