@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,6 +13,7 @@ namespace mywebapi.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
+            // testing VS Online
             return new string[] { "value1", "value2" };
         }
 
